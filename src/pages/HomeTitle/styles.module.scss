@@ -1,0 +1,11 @@
+@import 'src/scss/mixi.scss';
+
+section {
+  &.nav {
+    h1 {
+      text-align: center;
+      @include font(5, 5, 700);
+
+    }
+  }
+}

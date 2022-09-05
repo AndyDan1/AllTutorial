@@ -1,0 +1,13 @@
+@import 'src/scss/mixi.scss';
+
+.root {
+  h1 {
+@include font(3,3,700);
+    text-align: center;
+  }
+  p{
+    @include font(2,2,500);
+
+
+  }
+}

@@ -1,0 +1,27 @@
+@import 'src/scss/mixi.scss';
+
+.root {
+  .modal {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    @include fb(c, c);
+    padding: 2rem;
+
+    .modal_body {
+      padding: 2rem;
+      width: 40rem;
+      border-radius: .5rem;
+      background: #fff;
+      height: 20rem;
+      h1{
+        //@include font(2,2,500);
+        
+      }
+    }
+  }
+}

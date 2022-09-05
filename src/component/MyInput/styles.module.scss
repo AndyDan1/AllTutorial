@@ -1,0 +1,9 @@
+@import 'src/scss/mixi.scss';
+
+.root {
+  input{
+    padding: .5rem;
+    @include font(1.8,1.8,500 );
+    
+  }
+}

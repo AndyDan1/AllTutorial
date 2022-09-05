@@ -1,0 +1,58 @@
+@import 'src/scss/mixi.scss';
+
+
+section {
+  &.fast_start {
+    h1 {
+      @include font(3, 3, 700);
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    h2 {
+      @include font(2, 2, 700);
+      color:red;
+      text-align: center;
+    }
+
+    .form_add{
+      @include fb(c,c);
+      margin-bottom: 2rem;
+      input{
+        padding: 1rem;
+        @include font(1.6,1.6,500);
+        
+      }
+      button{
+        padding: 1rem;
+        margin-left: 2rem;
+      }
+
+    }
+
+    ul {
+      max-width: 80rem;
+      margin: 0 auto;
+
+      li {
+        @include font(2, 2, 500);
+        @include fb(c, sb);
+        border: 1px solid grey;
+        padding: 1rem;
+        border-radius: 1.2rem;
+        margin-bottom: 1rem;
+
+        span {
+          &.checked {
+            text-decoration: line-through;
+          }
+        }
+      }
+
+      strong {
+        font-weight: 700;
+      }
+
+    }
+  }
+}
